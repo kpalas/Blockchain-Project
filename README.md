@@ -12,15 +12,14 @@ Proof-of-work mining algorithm
 Merkle tree implementation for transaction verification
 Blockchain validation
 
-Project Structure
+#Project Structure
 ├── blockchain.java          # Main blockchain class and entry point
 ├── block.java              # Block implementation with mining
 ├── Wallet.java             # Wallet with key generation and transaction sending
 ├── Transaction.java        # Transaction processing and validation
 ├── TransactionInput.java   # Transaction input references
 ├── TransactionOutput.java  # Transaction output implementation
-└── StringUtil.java         # Utility functions (hashing, signatures, Merkle root)
-Components
+└── StringUtil.java         # Utility functions (hashing, signatures, Merkle root)Components
 Blockchain (blockchain.java)
 
 Main entry point of the application
