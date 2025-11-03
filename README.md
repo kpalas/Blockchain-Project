@@ -158,14 +158,6 @@ This is an educational implementation with several simplifications:
 - Simplified UTXO management
 - No script system for advanced transactions
 
-## Known Issues to Fix
-
-Before running, ensure you fix:
-1. `block.java` - Add `merkleRoot` field
-2. `Transaction.java` - Fix typo: `calulateHash()` → `calculateHash()`
-3. `TransactionOutput.java` - Use `.equals()` instead of `==` for PublicKey comparison
-4. `StringUtil.java` - Add `getDificultyString()` method
-5. `blockchain.java` - Add `addBlock()` method
 
 ## Future Enhancements
 
@@ -190,6 +182,3 @@ This project demonstrates:
 
 Educational project - free to use and modify.
 
-## Author
-
-Created as a learning exercise in blockchain technology and cryptocurrency systems.
